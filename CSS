@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #cceeff;
+    padding: 10px 20px;
+    border-bottom: 3px solid navy;
+}
+
+header img#logo {
+    height: 40px;
+    margin-right: 15px;
+}
+
+header .header-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 18px;
+}
+
+header strong {
+    color: black;
+}
+
+header a {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: navy;
+    text-decoration: underline;
+}
+
+
+.hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 850px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+    border-left: 5px solid pink;
+    padding-left: 10px;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.product {
+    border: 2px solid navy;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    transition: box-shadow 0.2s;
+}
+
+.product img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+}
+
+
+.wide-img {
+    display: block;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 850px;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #f9c9f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer p#contacts {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer p:nth-child(2),
+footer p:nth-child(3) {
+    font-style: italic;
+}
